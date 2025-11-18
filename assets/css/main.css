@@ -404,13 +404,24 @@ input, select, textarea {
 		border-top: 1px solid rgba(255, 255, 255, 0.2);
 	}
 
+
+
+.content h2 {
+    font-size: 2.2em;
+    margin-bottom: 0.75rem;
+    font-weight: 900;
+}
+
+
+
 /* Make each content section fill (almost) one screen on desktop */
 @media screen and (min-width: 981px) {
 	.content section {
-		min-height: 95vh;      /* try 80–90vh if you want more/less */
-		padding-bottom: 4rem;  /* some space at the bottom */
+		min-height: 85vh;      /* was 100vh – sections closer together */
+		padding-bottom: 3rem;  /* slightly less bottom padding */
 	}
 }
+
 
 	.content h2 {
 		font-size: 1.8em;
